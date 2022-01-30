@@ -1,0 +1,22 @@
+{
+  "name": "fishclicker",
+  "version": "1.0.0",
+  "description": "fish clicker game\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[F\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPWilson2021/fishClicker.git"
+  },
+  "author": "Jwils",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPWilson2021/fishClicker/issues"
+  },
+  "homepage": "https://github.com/JPWilson2021/fishClicker#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
