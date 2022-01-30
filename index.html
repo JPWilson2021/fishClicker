@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <title>Fred's Donut Maker</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="fredLogo.png" alt="logo">
+      <div class="menu">
+         <nav class="navbar">
+              <ul>
+              <li><button onclick="about()">Fred's</button></li>
+              <li><button onclick="showDev()">The Dev</button></li>
+              <li><button><a href="https://orteil.dashnet.org/cookieclicker/">Inspired From</a></button></li>
+              </ul>
+          </nav>
+      </div>
+      </header>
+      <div class="modal">
+        <section class="about-fred modal-texts" hidden>
+          <h3>About Fred</h3>
+          <p>
+            Fred is a retired baker and this game is created to keep his love of donuts alive.
+          </p>
+        </section>
+
+        <section class="theDev modal-texts" hidden>
+          <h3>The Developer</h3>
+          <p>
+            I'm Josephine Wilson and I'm a student from We Can Code It.
+          </p>
+        </div>
+      <h1>Welcome to Fred the Baker Baking Company!</h1>
+      <div class="donut-vid">
+        <video class="donut" width="500" height="500" controls loop>
+          <source src="fredVideo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <button class="make-donut button-53">
+         Make Donuts!
+      </button>
+      <button class="ac-btn button-53" disabled>
+        Purchase AutoClicker!
+      </button>
+      <button class="m-btn button-53" disabled>
+        Purchase Multiplier!
+      </button>
+      <div class="donut-info">
+        <div class="desc-donut">
+          <div class="desc-title">Donut Count :</div>
+          <div class="donut-count">0</div>
+          <div class="cost">
+            <span>Per Click : </span>
+            <div class="donut-value">1</div>
+          </div>
+          <hr />
+          <div class="desc-title">Number of Auto Clickers :</div>
+          <div class="auto-count">0</div>
+          <div class="cost">
+            <span>Cost :</span>
+            <div class="auto-cost">100</div>
+          </div>
+          <hr />
+          <div class="desc-title">Number of Donut Multipliers :</div>
+          <div class="m-count">0</div>
+          <div class="cost">
+            <span>Cost : </span>
+            <div class="m-cost">10</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="reset">Reset</button>
+      </div>
+    </main>
+  </div>
+</div>
+
+      
+      
+          <script src="donutmaker.js"></script>
+          <script src="donut-maker-app.js"></script>
+        </body>
+      </html>

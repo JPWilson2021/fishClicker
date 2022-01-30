@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Mukta:wght@200&family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #211d1d;
+}   
+header{
+    position: relative;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    float: left;
+    width: 250px;
+    
+}
+.menu{
+    position: relative;
+    display: flex;
+    z-index: 9999;
+}
+.menu .navbar ul{
+    list-style: none;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+/* .menu .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #f08c2b;
+    display: block;
+} */
+
+.menu .navbar ul li button{
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 5px;
+}
+.menu .navbar ul li button:hover{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+.menu .navbar ul li button:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.menu .navbar ul li button a,
+a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: #fff;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+
+}
+
+.donut-vid .donut{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    color: #f08c2b;
+    font-weight: 600;
+    font-size: 75px;
+    margin: 10px 0 15px 0;
+}
+.button-53 {
+    background-color: #fbeb78;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: grid;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .button-53:focus {
+    outline: 0;
+  }
+  
+  .button-53:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .button-53:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+ .button-53 a{
+     text-decoration: none;
+     color: #fff;
+
+ }
+
+
+  @media (min-width: 768px) {
+    .button-53 {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+.modal{
+    display:block;
+}
+.modal-texts{
+    
+    background-color: #fff;
+    border: 1px solid white;
+    width: 20rem;
+    height: 15rem;
+    padding: 2rem;
+    left: 50%;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    /* box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3); */
+}
+.modal-texts h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    border-bottom: #81cdfc 1px solid;
+    padding-bottom: 1rem;
+    color: #f08c2b;
+}
+  
+.modal-texts p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    text-align: justify;
+    color: #fff;
+}
+  
+.donut-info {
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  .desc-title {
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+  }
+  
+  .desc-donut div {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+  }
+  
+  hr {
+    margin: 1.2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cost {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .cost span {
+    padding-right: 1rem;
+    color: #fbeb78;
+  }
+  .auto-count{
+      color: #fff;
+  }
+  .donut-count{
+      color: #fff;
+  }
+  .m-count{
+      color: #fff;
+  }
+  
+  .button-container button {
+    background-color: #f08c2b;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: grid;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+  
+  .button-container button:focus {
+    outline: 0;
+  }
+  .button-container button:after{
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  .button-container button:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+
